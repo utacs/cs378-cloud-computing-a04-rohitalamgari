@@ -1,14 +1,18 @@
 # Please add your team members' names here. 
 
-## Team members' names 
+## Team members' names
 
-1. Student Name:
+1. Student Name: Aman Rajeshkumar Modi
 
-   Student UT EID:
+    Student UT EID: arm6433
 
-2. Student Name:
+2. Student Name: Rohit Alamgari
 
-   Student UT EID:
+    Student UT EID: rra764
+
+3. Student Name: Davinderpal Toor
+
+    Student UT EID: dst775
 
  ...
 
