@@ -59,13 +59,16 @@ To compile the project and create a single jar file with all dependencies:
 ```	mvn clean package ```
 
 
-
 ## Run your application
 Inside your shell with Hadoop
 
-Running as Java Application:
+Running as Java Application (for Task One on small):
 
-```java -jar target/MapReduce-WordCount-example-0.1-SNAPSHOT-jar-with-dependencies.jar SOME-Text-Fiel.txt  output``` 
+```java -jar target/MapReduce-WordCount-example-0.1-SNAPSHOT-jar-with-dependencies.jar taxi-data-sorted-small.csv  output``` 
+
+Running as Java Application (for Task Two or Three on small):
+
+```java -jar target/MapReduce-WordCount-example-0.1-SNAPSHOT-jar-with-dependencies.jar taxi-data-sorted-small.csv intermediateFolder output``` 
 
 Or has hadoop application
 

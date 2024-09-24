@@ -1,11 +1,23 @@
 package edu.cs.utexas.HadoopEx;
-import java.util.*;
 
-public class Utils{
+public class Utils {
     private static final double EPSILON = 1e-9;
 
+    public static final int TAXI_ID_IDX = 0;
+    public static final int DRIVER_ID_IDX = 1;
+    public static final int PICK_TIME_IDX = 2;
+    public static final int TRIP_DUR_IDX = 4;
+    public static final int PICK_LONG_IDX = 6;
+    public static final int PICK_LAT_IDX = 7;
+    public static final int DROP_LONG_IDX = 8;
+    public static final int DROP_LAT_IDX = 9;
+    public static final int TOTAL_AMT_IDX = 16;
+
+    public static int K = 0;
+
     public static boolean validGPS(String pickLong, String pickLat, String dropLong, String dropLat){
-        return !pickLong.equals("0") && !pickLat.equals("0") && !dropLong.equals("0") && !pickLat.equals("0");
+        return !pickLong.equals("0") && !pickLat.equals("0") && !dropLong.equals("0") && !pickLat.equals("0") &&
+        !pickLong.equals("") && !pickLat.equals("") && !dropLong.equals("") && !pickLat.equals("");
     }
 
     public static String extractHour(String time){
@@ -42,6 +54,10 @@ public class Utils{
     }
     
     if(total <= 0.0) {
+        return false;
+    }
+
+    if(time <= 0.0) {
         return false;
     }
     
