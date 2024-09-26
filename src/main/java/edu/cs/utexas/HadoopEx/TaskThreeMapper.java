@@ -7,15 +7,13 @@ import org.apache.hadoop.mapreduce.Mapper;
 
 public class TaskThreeMapper extends Mapper<Object, Text, Text, RecordWritable> {
 
-    private final FloatWritable earnings = new FloatWritable(0);
-    private final FloatWritable duration = new FloatWritable(0);
-
-
-	private Text word = new Text();
-
 	public void map(Object key, Text value, Context context) 
 			throws IOException, InterruptedException {
-		
+				
+		Text word = new Text();
+		FloatWritable earnings = new FloatWritable(0);
+		FloatWritable duration = new FloatWritable(0);
+			
 		String[] tokens = value.toString().split(",");
 		if(Utils.validRecord(tokens)){
 			word.set(tokens[Utils.DRIVER_ID_IDX]);

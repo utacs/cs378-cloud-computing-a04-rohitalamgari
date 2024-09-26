@@ -63,6 +63,8 @@ public class Driver extends Configured implements Tool {
 			FileOutputFormat.setOutputPath(job, new Path(args[1]));
 			job.setOutputFormatClass(TextOutputFormat.class);
 
+			job.setNumReduceTasks(1);
+
 			return (job.waitForCompletion(true) ? 0 : 1);
 
 		} catch (InterruptedException | ClassNotFoundException | IOException e) {
@@ -98,6 +100,8 @@ public class Driver extends Configured implements Tool {
 			FileOutputFormat.setOutputPath(job, new Path(args[1]));
 			job.setOutputFormatClass(TextOutputFormat.class);
 
+			job.setNumReduceTasks(1);
+
 			if (!job.waitForCompletion(true)) {
 				return 1;
 			}
@@ -124,6 +128,8 @@ public class Driver extends Configured implements Tool {
 
 			FileOutputFormat.setOutputPath(job2, new Path(args[2]));
 			job2.setOutputFormatClass(TextOutputFormat.class);
+
+			job2.setNumReduceTasks(1);
 
 			return (job2.waitForCompletion(true) ? 0 : 1);
 
@@ -160,6 +166,8 @@ public class Driver extends Configured implements Tool {
 			FileOutputFormat.setOutputPath(job, new Path(args[1]));
 			job.setOutputFormatClass(TextOutputFormat.class);
 
+			job.setNumReduceTasks(1);
+
 			if (!job.waitForCompletion(true)) {
 				return 1;
 			}
@@ -186,6 +194,8 @@ public class Driver extends Configured implements Tool {
 
 			FileOutputFormat.setOutputPath(job2, new Path(args[2]));
 			job2.setOutputFormatClass(TextOutputFormat.class);
+
+			job2.setNumReduceTasks(1);
 
 			return (job2.waitForCompletion(true) ? 0 : 1);
 
