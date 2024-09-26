@@ -1,4 +1,4 @@
-# Please add your team members' names here. 
+# Please add your team members' names here.
 
 ## Team members' names
 
@@ -14,72 +14,167 @@
 
     Student UT EID: dst775
 
- ...
+...
 
-##  Course Name: CS378 - Cloud Computing 
+## Course Name: CS378 - Cloud Computing
 
-##  Unique Number: 50655
+## Unique Number: 50655
 
-##  Date Created: 9/15/2024
+## Date Created: 9/22/2024
 
+# Add your Project REPORT HERE
 
-# Add your Project REPORT HERE 
+## Task 1 Results
 
+-   1 198348
+-   2 149531
+-   3 113250
+-   4 85820
+-   5 63587
+-   6 50806
+-   7 104843
+-   8 180220
+-   9 219694
+-   10 230030
+-   11 223154
+-   12 228581
+-   13 242694
+-   14 241110
+-   15 251025
+-   16 247820
+-   17 214859
+-   18 244638
+-   19 304573
+-   20 317887
+-   21 296532
+-   22 291456
+-   23 279500
+-   24 247290
 
-# Project Template
+## Task 2 Results
 
-# Running on Laptop     ####
+-   0219EB9A4C74AAA118104359E5A5914C 1.0
+-   0D752625D41FAFA8CED8F259651E624C 1.0
+-   0EE3FFCBDFD8B2979E87F38369A28FD9 1.0
+-   14C5001FBF4706F49E6D436FA1EC8428 1.0
+-   15D8476E818B8009EAC8018D2D4E8917 1.0
+
+## Task 3 Results
+
+-   FD2AE1C5F9F5FBE73A6D6D3D33270571 4095.0
+-   A7C9E60EEE31E4ADC387392D37CD06B8 1260.0
+-   D8E90D724DBD98495C1F41D125ED029A 630.0
+-   E9DA1D289A7E321CC179C51C0C526A73 231.3
+-   74071A673307CA7459BCF75FBD024E09 210.0
+-   95A921A9908727D4DC03B5D25A4B0F62 210.0
+-   42AB6BEE456B102C1CF8D9D8E71E845A 191.54999
+-   28EAF0C54680C6998F0F2196F2DA2E21 180.0
+-   FA587EC2731AAB9F2952622E89088D4B 180.0
+-   E79402C516CEF1A6BB6F526A142597D4 144.54546
+
+## Dataproc Machines
+
+![](https://cdn.discordapp.com/attachments/1278052562292965387/1288946741659435099/image.png?ex=66f708b2&is=66f5b732&hm=cd7ee74c79aa631e350b5cca00010d5110d1d94c1529d411d187fb07af233271&)
+
+## Yarn History
+
+### Task 1
+
+![](https://cdn.discordapp.com/attachments/1278052562292965387/1288948512389861498/image.png?ex=66f70a58&is=66f5b8d8&hm=970164f36847af87e6cbcb6d80a4f09398836783bfed03ee78c7f9266144947c&)
+
+### Task 2
+
+![](https://cdn.discordapp.com/attachments/1278052562292965387/1288948738433482824/image.png?ex=66f70a8e&is=66f5b90e&hm=0d4d92839fd7830d7b5577faf448494802287f092f5f481a16c51fbe97f4147b&)
+![](https://cdn.discordapp.com/attachments/1278052562292965387/1288948738793934888/image.png?ex=66f70a8e&is=66f5b90e&hm=7c014132fea5a717ace229572537b4001a7448804986feb546d78ad5a5567af3&)
+
+### Task 3
+
+![](https://cdn.discordapp.com/attachments/1278052562292965387/1288948867101888563/image.png?ex=66f70aad&is=66f5b92d&hm=b2b29f5774ec9ec753fdf4371732b23b87f0f389932ea4c912ef2936df256c0d&)
+![](https://cdn.discordapp.com/attachments/1278052562292965387/1288948867664187413/image.png?ex=66f70aad&is=66f5b92d&hm=0e932500a38a5cab42e830a68685d9e305cbff591bd5bf407f8e5fb185f443ac&)
+
+## Error Lines
+
+### Task 1
+
+-   9AE4E5913011D9842C31F8D120697F5B,191F9FA1FCB4C083E571CE62418037B7,2013-01-17 09:30:00,2013-01-17 09:30:00,0,0.00,-73.782829,40.648800,-73.782829,40.648800,CRD,52.00,0.00,0.50,7.00,4.80,64.30
+-   582CAF46446FA03320E5178E7BEC1E86,91F65A1F1F1565EC719E37045C47BED6,2013-01-17 09:53:00,2013-01-17 09:53:00,0,0.00,0.000000,0.000000,0.000000,0.000000,CSH,2.50,0.00,0.50,0.00,0.00,3.00
+-   3031B290B0BA2C134C01518B103A6ADB,BABBE9B46D12D3386F67661879BB1EB9,2013-01-17 09:57:00,2013-01-17 09:57:00,0,0.00,0.000000,0.000000,0.000000,0.000000,CSH,2.50,0.00,0.50,0.00,0.00,3.00
+-   D9F9133FB120CD6096870BC2B496805B,00B7691D86D96AEBD21DD9E138F90840,2013-01-17 10:01:00,2013-01-17 10:01:00,0,0.00,0.000000,0.000000,0.000000,0.000000,CRD,2.50,0.00,0.50,0.00,0.00,3.00
+-   A5D941D4834813EF4C394713A613A93E,A80601BDCC989F498D0EEDF9700EEA92,2013-01-17 10:03:00,2013-01-17 10:03:00,0,0.09,-73.945992,40.779621,-73.946381,40.779766,CRD,38.00,0.00,0.00,7.60,0.00,45.60
+
+### Task 2
+
+-   D9F9133FB120CD6096870BC2B496805B,00B7691D86D96AEBD21DD9E138F90840,2013-01-17 10:05:00,2013-01-17 10:05:00,0,0.00,0.000000,0.000000,0.000000,0.000000,CRD,2.50,0.00,0.50,2.00,0.00,5.00
+-   F9C73042DF9FFEB2BF34F244572A8D4A,71DF66E22EB66C7D9C4F85A3BEC3BB74,2013-01-17 10:05:00,2013-01-17 10:05:00,0,0.27,-73.978920,40.766918,-73.980469,40.767517,CSH,3.00,0.00,0.50,0.00,0.00,3.50
+-   D8647CE1C8D12C708D77C742B2E1813C,A99A67FDE2F88797044C543143C7A7D5,2013-01-17 10:10:00,2013-01-17 10:10:00,0,0.30,-73.957901,40.779442,-73.958626,40.778389,CSH,3.00,0.00,0.50,0.00,0.00,3.50
+-   7A0DCF6BB20991E2D4644B2AE5CE3831,CCD80210FD0950D6EABEA1F3941BD016,2013-01-17 10:35:00,2013-01-17 10:35:00,0,0.00,0.000000,0.000000,0.000000,0.000000,CRD,52.00,0.00,0.50,10.40,4.80,67.70
+-   C386A225E08B3D3E94DF7C058744604E,3827B629FC7108E8BEB7325B39490CF9,2013-01-17 10:36:00,2013-01-17 10:36:00,0,0.00,-73.861557,40.768272,0.000000,0.000000,CRD,2.50,0.00,0.50,4.00,0.00,7.00
+
+### Task 3
+
+-   D9F9133FB120CD6096870BC2B496805B,00B7691D86D96AEBD21DD9E138F90840,2013-01-17 10:05:00,2013-01-17 10:05:00,0,0.00,0.000000,0.000000,0.000000,0.000000,CRD,2.50,0.00,0.50,2.00,0.00,5.00
+-   F9C73042DF9FFEB2BF34F244572A8D4A,71DF66E22EB66C7D9C4F85A3BEC3BB74,2013-01-17 10:05:00,2013-01-17 10:05:00,0,0.27,-73.978920,40.766918,-73.980469,40.767517,CSH,3.00,0.00,0.50,0.00,0.00,3.50
+-   D8647CE1C8D12C708D77C742B2E1813C,A99A67FDE2F88797044C543143C7A7D5,2013-01-17 10:10:00,2013-01-17 10:10:00,0,0.30,-73.957901,40.779442,-73.958626,40.778389,CSH,3.00,0.00,0.50,0.00,0.00,3.50
+-   7A0DCF6BB20991E2D4644B2AE5CE3831,CCD80210FD0950D6EABEA1F3941BD016,2013-01-17 10:35:00,2013-01-17 10:35:00,0,0.00,0.000000,0.000000,0.000000,0.000000,CRD,52.00,0.00,0.50,10.40,4.80,67.70
+-   C386A225E08B3D3E94DF7C058744604E,3827B629FC7108E8BEB7325B39490CF9,2013-01-17 10:36:00,2013-01-17 10:36:00,0,0.00,-73.861557,40.768272,0.000000,0.000000,CRD,2.50,0.00,0.50,4.00,0.00,7.00
+
+# Running on Laptop
 
 Prerequisite:
 
-- Maven 3
+-   Maven 3
 
-- JDK 1.6 or higher
+-   JDK 1.6 or higher
 
-- (If working with eclipse) Eclipse with m2eclipse plugin installed
-
+-   (If working with eclipse) Eclipse with m2eclipse plugin installed
 
 The java main class is:
 
-edu.cs.utexas.HadoopEx.WordCount 
+edu.cs.utexas.HadoopEx.WordCount
 
-Input file:  Book-Tiny.txt  
+Input file: Book-Tiny.txt
 
-Specify your own Output directory like 
+Specify your own Output directory like
 
 # Running:
 
+## Running on GCP
 
+-   Create the 3 separate Jar Files by changing the run command in Driver.java
 
+-   Add them to your Cloud Storage or use gs://dtoor/task1.jar or task2-real.jar or task3-real.jar
 
-## Create a JAR Using Maven 
+-   Add the large file as the first argument
 
-To compile the project and create a single jar file with all dependencies: 
-	
-```	mvn clean package ```
+-   Add your intermediate folder on GS as the second
 
+-   Add your output folder on GS as the third and final argument
+
+## Create a JAR Using Maven
+
+To compile the project and create a single jar file with all dependencies:
+`	mvn clean package `
+
+- To compile different tasks change the run() line inside Driver.java before running the command.
 
 ## Run your application
+
 Inside your shell with Hadoop
 
 Running as Java Application (for Task One on small):
 
-```java -jar target/MapReduce-WordCount-example-0.1-SNAPSHOT-jar-with-dependencies.jar taxi-data-sorted-small.csv  output``` 
+`java -jar target/MapReduce-WordCount-example-0.1-SNAPSHOT-jar-with-dependencies.jar taxi-data-sorted-small.csv  output`
 
 Running as Java Application (for Task Two or Three on small):
 
-```java -jar target/MapReduce-WordCount-example-0.1-SNAPSHOT-jar-with-dependencies.jar taxi-data-sorted-small.csv intermediateFolder output``` 
+`java -jar target/MapReduce-WordCount-example-0.1-SNAPSHOT-jar-with-dependencies.jar taxi-data-sorted-small.csv intermediateFolder output`
 
 Or has hadoop application
 
-```hadoop jar your-hadoop-application.jar edu.cs.utexas.HadoopEx.WordCount arg0 arg1 ... ```
-
-
+`hadoop jar your-hadoop-application.jar edu.cs.utexas.HadoopEx.WordCount arg0 arg1 ... `
 
 ## Create a single JAR File from eclipse
 
+Create a single gar file with eclipse
 
-
-Create a single gar file with eclipse 
-
-*  File export -> export  -> export as binary ->  "Extract generated libraries into generated JAR"
+-   File export -> export -> export as binary -> "Extract generated libraries into generated JAR"
