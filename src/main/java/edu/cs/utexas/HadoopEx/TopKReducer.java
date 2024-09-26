@@ -10,26 +10,21 @@ import java.util.List;
 import java.util.Collections;
 import java.util.PriorityQueue;
 
-
-
-public class TopKReducer extends  Reducer<Text, FloatWritable, Text, FloatWritable> {
+public class TopKReducer extends Reducer<Text, FloatWritable, Text, FloatWritable> {
 
     private PriorityQueue<KeyAndValue> pq = new PriorityQueue<KeyAndValue>(10);;
 
-   public void reduce(Text key, Iterable<FloatWritable> values, Context context)
-           throws IOException, InterruptedException {
+    public void reduce(Text key, Iterable<FloatWritable> values, Context context)
+            throws IOException, InterruptedException {
 
-       // Size of values is 1 because key only has one distinct value
-       for (FloatWritable value : values) {
-           pq.add(new KeyAndValue(new Text(key), new FloatWritable(value.get())));
-       }
-
-       while (pq.size() > Utils.K) {
-           pq.poll();
-       }
-
-
-   }
+        // Size of values is 1 because key only has one distinct value
+        for (FloatWritable value : values) {
+            pq.add(new KeyAndValue(new Text(key), new FloatWritable(value.get())));
+            if (pq.size() > 10) {
+                pq.poll();
+            }
+        }
+    }
 
     public void cleanup(Context context) throws IOException, InterruptedException {
         List<KeyAndValue> values = new ArrayList<KeyAndValue>(10);

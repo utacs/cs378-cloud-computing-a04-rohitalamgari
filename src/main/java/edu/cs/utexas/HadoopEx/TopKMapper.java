@@ -18,7 +18,7 @@ public class TopKMapper extends Mapper<Text, Text, Text, FloatWritable> {
 
 		pq.add(new KeyAndValue(new Text(key), new FloatWritable(count)) );
 
-		if (pq.size() > Utils.K) {
+		if (pq.size() > 10) {
 			pq.poll();
 		}
 	}
